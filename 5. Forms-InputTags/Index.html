@@ -10,7 +10,7 @@
     <form action="post">
     <div>
         <label for="username">Entre your username</label>   
-        <input type="text" id="username" name="username" placeholder="Enter your username">
+        <input type="text" id="username" name="username" placeholder="Enter your username" autofocus>
     </div>
 
     <div>
@@ -26,8 +26,17 @@
     </div>
     
     <div>
-        <textarea name="comment" rows="4" cols="50"> Enter your comment here...
-        </textarea>
+        <label for="comment">Enter your comment</label>
+        <br>
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+    </div>
+
+    <div>
+        <select name="fruits">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="cherry">Cherry</option>
+        </select>     
     </div>
     </form>          
 </body>
